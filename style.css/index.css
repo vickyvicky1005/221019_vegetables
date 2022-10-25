@@ -1,0 +1,188 @@
+body{
+    background-color: #edf2c5;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all{
+   padding-top: 53px;
+   width: 2048px;
+   justify-content: center;
+}
+
+.warp{
+   width: 940px;
+   margin:auto; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header h1{
+    font-weight: 900;
+    font-size: 44px;
+    color: #778a50;
+    margin: 0px 0px 8px 0px;
+ 
+}
+ .header .header2 {
+    display: flex;
+    align-items: center;
+    
+
+ }
+
+ 
+ .header .header2 img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+ }
+
+ .line1{
+   height: 25px;
+   width: 1px;
+   background-color: #778a50;
+   margin-left: 10px;
+ 
+ }
+
+ .header .header2 a{
+   
+    font-weight: bold;
+    font-size: 14px;
+    color: #778a50;
+    text-decoration: none;
+    border:1px solid #778a50;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    
+ }
+
+ nav{
+    background-color: #778a50;
+    height:42px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+ }
+
+ nav ul{
+    display: flex;
+    justify-content: center;;
+    font-weight: 900; 
+
+ }
+
+ nav ul li a{
+    color: #edf2c5;
+    font-size: 16px;
+    margin: 30px;
+    text-decoration: none;
+ }
+
+ .down{
+   display: flex;
+   margin: 30px 0px 0px 0px;
+   
+ }
+ 
+.left{
+   width: 445px;
+   margin: 0px 25px 0px 0px;
+}
+
+.left .vegetable {
+   background-color: #778a50;
+   height: 46px;
+   padding: 15px 0px 15px 30px;
+   box-sizing: border-box;
+   margin: 0px 0px 15px 0px;
+
+}
+
+.left h2{
+   font-weight: 900;
+   font-size: 16px;
+   color: #edf2c5;
+
+}
+
+ .left .img{
+   width: 445px;
+   display:flex;
+   justify-content: space-between;
+
+ }
+
+.right{
+   width: 445px;
+   margin: 0px 0px 0px 25px;
+}
+
+.right .right_down{
+   background-color:#f7fbda;
+   width: 445px;
+   height: 140px;
+   padding: 16px 30px 16px 15px;
+   box-sizing: border-box;
+  
+}
+
+.right .contact{
+   background-color: #778a50;
+   height: 46px;
+   padding: 15px 30px 15px 30px;
+   box-sizing: border-box;
+   margin: 0px 0px 15px 0px;
+}
+
+.right h2{
+   font-weight: 900;
+   font-size: 16px;
+   color: #edf2c5;
+}
+
+.explain {
+   font-size: 12px;
+   color: #7d7d7d;
+   line-height: 1.33;
+   width: 414px;
+   margin: 0px 0px 16px 0px;
+ 
+}
+
+.line{
+   background-color:#7d7d7d ;
+   width: 414px;
+   height: 1px;
+   margin: 0px 0px 16px 0px;
+}
+
+.news{
+   font-size: 12px;
+   color: #7d7d7d;
+   line-height: 1.33;
+   width: 414px;
+}
+
+.footer{
+   background-color: #778a50;
+   height: 61px;
+   margin: 35px 0px 0px 0px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer p{
+
+   font-size: 12px;
+   color: #edf2c5;
+   
+}
